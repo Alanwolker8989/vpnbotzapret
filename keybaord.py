@@ -16,4 +16,9 @@ back_kb =InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 
+sub_kb = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text="🔔 Подписаться", url="https://t.me/newsvpnzapret")],
+    [InlineKeyboardButton(text="✅ Проверить подписку", callback_data="check_sub")]
+])
+
 
