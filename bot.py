@@ -8,7 +8,7 @@ dp = Dispatcher()
 
 
 async def main():
-    init_db()  # <---- вызывайте функцию перед стартом бота
+    init_db()  
     dp.include_router(router)
     await dp.start_polling(bot)
     
